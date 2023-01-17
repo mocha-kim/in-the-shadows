@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using InTheShadow.Core;
 
-public class GameManager : Singleton<GameManager>
+namespace InTheShadow.System
 {
-    private void Start()
+    public class GameManager : Singleton<GameManager>
     {
-        
-    }
+        private void Start()
+        {
+            
+        }
 
-    private void OnApplicationQuit()
-    {
-        
+        private void OnApplicationQuit()
+        {
+            
+        }
     }
 }
