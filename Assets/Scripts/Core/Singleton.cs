@@ -31,7 +31,7 @@ namespace InTheShadow.Core
             if (_instance == null)
             {
                 _instance = this as T;
-                DontDestoryOnLoad(gameObject);
+                DontDestroyOnLoad(gameObject);
             }   
             else
             {
