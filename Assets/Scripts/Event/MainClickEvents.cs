@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace InTheShadow.Events
+namespace InTheShadow.Event
 {
     public class MainClickEvents : MonoBehaviour
     {

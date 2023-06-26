@@ -7,14 +7,6 @@ namespace InTheShadow.System
 {
     public class GameManager : Singleton<GameManager>
     {
-        private void Start()
-        {
-            
-        }
-
-        private void OnApplicationQuit()
-        {
-            
-        }
+		
     }
 }
